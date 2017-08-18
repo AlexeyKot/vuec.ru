@@ -1,29 +1,28 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        vuec.ru
-      </h1>
-      <h2 class="subtitle">
-        Vue.js Center - ресурс на русском языке, посвященный Vue.js: еженедельная рассылка материалов, обучение, вакансии.
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+  <div class="page">
+    <section class="head">
+      <div class="head__logo"><a href="https://vuec.ru">vuec.ru</a></div>
+      <ul class="menu">
+        <li class="menu__item"><a href="/">5-ти минутка</a></li>
+        <li class="menu__item"><a href="#">Отправить материал</a></li>
+        <li class="menu__item"><a href="#">Канал Telegram</a></li>
+      </ul>
+    </section>
+    <section class="hero">
+      <h1 class="hero__title">Пятиминутка Vue.js</h1>
+      <subscribe-form/>
+    </section>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+  import SubscribeForm from '~/components/SubscribeForm.vue'
 
-export default {
-  components: {
-    Logo
+  export default {
+    components: {
+      SubscribeForm
+    }
   }
-}
 </script>
 
 <style>

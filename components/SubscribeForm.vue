@@ -1,0 +1,15 @@
+<template>
+	<div class="form-outer sp-force-hide"> <style id="subscribe-form-style" class="">.sp-force-hide { display: none;
+	}
+	.sp-form[sp-id="80824"] { display: block; background: #ffffff; padding: 15px; width: 350px; max-width: 100%; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; font-family: Arial, "Helvetica Neue", sans-serif;
+}
+.sp-form[sp-id="80824"] .sp-form-control { background: #ffffff; border-color: #cccccc; border-style: solid; border-width: 1px; font-size: 15px; padding-left: 8.75px; padding-right: 8.75px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; height: 35px; width: 100%;
+}
+.sp-form[sp-id="80824"] .sp-field label { color: #444444; font-size: 13px; font-style: normal; font-weight: bold;
+}
+.sp-form[sp-id="80824"] .sp-button { border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; background-color: #4fc08d; color: #ffffff; width: auto; font-weight: normal; font-style: normal; font-family: Arial, sans-serif; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;
+}
+.sp-form[sp-id="80824"] .sp-button-container { text-align: left;
+}
+</style> <div id="sp-form-80824" sp-id="80824" sp-hash="228ef62d6c499e3129db9f10f662ae557adfd024b8be1e7df92219a011476bad" sp-lang="ru" class="sp-form sp-form-regular sp-form-embed" sp-show-options="%7B%22amd%22%3Afalse%2C%22condition%22%3A%22onEnter%22%2C%22delay%22%3A10%2C%22repeat%22%3A3%2C%22background%22%3A%22dark%22%2C%22position%22%3A%22bottom-right%22%7D"> <div class="sp-message"> <div></div> </div> <div id="droppableArea" class="sp-element-container ui-sortable ui-droppable sp-field-nolabel" style=""><div class="sp-field " sp-id="sp-f843393d-b47a-494b-828d-097011f12393" > <div class=" " style="font-family: inherit; line-height: 1.2;"><p><span style="font-size: 16px;">Раз в неделю мы отправляем свежие материалы из мира Vue.js</span></p></div> </div><div class="sp-field " sp-id="sp-9004c65a-ed34-457a-9788-ab03ac8ee911" > <label class="sp-control-label "> <span class="">Email</span> <strong class="" style="">*</strong> </label> <input type="email" sp-type="email" name="sform[email]" class="sp-form-control " placeholder="username@gmail.com" sp-tips="%7B%22required%22%3A%22%D0%9E%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%BE%D0%BB%D0%B5%22%2C%22wrong%22%3A%22%D0%9D%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20email-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%22%7D" required="required" style=""> </div></div> <div class="sp-field sp-button-container sp-lg" sp-id="sp-d7183ae9-067f-43ce-85f3-d7aa2e826727" style=""> <button id="sp-d7183ae9-067f-43ce-85f3-d7aa2e826727" class="sp-button "> Подписаться </button> </div> <div class="sp-link-wrapper sp-brandname__left " style=""> </div> </div> <script type="text/javascript" src="//login.sendpulse.com/apps/fc3/build/default-handler.js"></script></div>  
+</template>
